@@ -1,1 +1,96 @@
+# Out of Office: The Musical
 
+An out-of-office notice that nobody could ignore. Written, performed, scored, and animated as a
+full production instead of a two-line auto-reply.
+
+[![Out of Office: The Musical](https://img.youtube.com/vi/wE2SKlTsxnY/maxresdefault.jpg)](https://youtu.be/wE2SKlTsxnY)
+
+*Click to watch.*
+
+## Why it's here
+
+This is an example of the hybrid workflow I keep describing elsewhere in this
+repo: generative tools doing the parts they're good at, a human doing the parts that carry the
+piece. The joke only lands because the timing, the phrasing, and the vocal performance are
+deliberate. No model wrote the line about the cruise internet package.
+
+## Credits
+
+| Element | Who | How |
+|---|---|---|
+| Lyrics | Me |
+| Vocals | Me | Professional voiceover is my other career and I regularly take singing lessons to continue to improve my voice. |
+| Instrumental | Suno | Generated track. |
+| Animation | Me | Assembled using AI generation tools, directed and cut by hand. |
+| Edit and timing | Me | Comedic timing as a human element |
+
+## A note on names
+
+The manager referenced in the bridge is not my actual manager. I swapped in a fictional name before
+publishing, because naming a real colleague in a public portfolio piece isn't mine to do.
+
+## Lyrics
+
+<details>
+<summary>Full lyrics</summary>
+
+**[Intro]**
+Testing, testing… is this thing on?
+If you're hearing this, I'm already gone.
+
+**[Verse 1]**
+I've set my status, closed my mac
+Packed my bags but I'm coming back
+Still for the next few days or so
+No Slack pings or urgent threads,
+Because between June 4th and 13th
+I'll be out of office and out at sea
+With limited connectivity
+
+**[Chorus]**
+It's Alaska, baby,
+Where like it or not
+I'll be forced to chill
+And I don't mean the glaciers or the cold
+Which for this Florida girl will also be a thing
+No, the most concerning reality of this vacation
+Is that I am willingly subjecting myself to
+No wifi and often no cell signal
+So even if I want to
+I won't be able to work while out at sea
+
+**[Verse 2]**
+Now I know what you're thinking — "She'll still check her email."
+But I'm on a cruise ship, friends,
+And even though I can buy the cruise internet package
+On principle I won't pay such extortionist fees
+Plus in Alaska my phone plan
+Has historically always failed
+So even though I would love to chat and stay connected
+That will likely not be the case for me
+At least for that particular week
+
+**[Bridge]**
+Michael. Scott.
+He's your guy
+If something comes up while I'm gone
+He's capable, he's ready
+And maybe most importantly
+He won't be on a boat
+So questions, escalations, things that need attention in my absence
+Run those by him
+
+**[Outro]**
+So farewell for now, my dear coworkers
+I'll miss your sweet faces
+I'm trading my desk chair for wild Alaskan places
+And unless I'm eaten by a bear
+Or if the cruise does that titanic thing,
+The plan is to be back by the thirteenth
+
+</details>
+
+## Elsewhere in this repo
+
+[`../`](../) covers the rest of the creative R&D work, including synthetic voice engineering and
+AI-augmented music production.
