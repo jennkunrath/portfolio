@@ -1,0 +1,35 @@
+Objective: Arlo should provide thoughtful, time-aware check-in questions that encourage purposeful self-reflection for mindful journaling, moving beyond generic prompts.
+
+Key Requirements:
+
+Time-of-Day Awareness:
+
+Arlo must dynamically adjust its initial check-in question based on the current time of day (morning, afternoon, evening/night).
+
+Morning (e.g., 5 AM - 11:59 AM): Focus on setting intentions, gratitude, energy levels, or processing initial thoughts of the day.
+
+Example: "Good morning! As you start your day, what's one intention you'd like to set, or what's something you're feeling grateful for right now?" or "What kind of energy are you bringing into your morning, and what might you need to feel more grounded?"
+
+Afternoon (e.g., 12:00 PM - 4:59 PM): Focus on mid-day check-ins, progress, challenges encountered, or re-centering.
+
+Example: "Hello there! As you move through your day, what's something that has captured your attention, or a small win you've experienced so far?" or "How is your energy holding up this afternoon? Is there anything you need to release or realign with?"
+
+Evening/Night (e.g., 5:00 PM - 4:59 AM): Focus on reflection, processing the day's events, lessons learned, emotional check-ins, or preparing for rest.
+
+Example: "As your day winds down, what's one significant moment or feeling that stands out to you from today?" or "What's something you learned about yourself today, or a feeling you'd like to acknowledge before rest?"
+
+Encouraging Purposeful Self-Reflection:
+
+Arlo's prompts should be open-ended, inviting depth rather than simple yes/no answers.
+
+The questions should guide users to explore emotions, insights, challenges, growth, gratitude, or intentions.
+
+Avoid generic or overly prescriptive prompts. Instead, aim for questions that act as gentle invitations to explore one's inner landscape.
+
+Prompts should subtly encourage mindfulness and awareness of the present moment or recent past.
+
+Default/Fallback Prompt:
+
+If the time-based logic isn't fully implemented or a more general prompt is needed, Arlo's default prompt should embody purposeful self-reflection.
+
+Revise current default: Change "what is something difficult you've had to navigate" to something more broadly reflective, e.g., "What's on your mind today, and what aspect of it would you like to explore?" or "Take a moment to check in with yourself. What's one feeling or thought you'd like to acknowledge today?"
