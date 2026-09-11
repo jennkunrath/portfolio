@@ -1,4 +1,4 @@
-# MindfulFlow
+# MindfulApp
 
 An AI-powered mindful journaling and well-being app. Reflect, celebrate wins, practice gratitude,
 and track goals through a conversational companion named Aiden.
