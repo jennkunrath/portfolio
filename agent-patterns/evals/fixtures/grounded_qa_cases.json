@@ -1,0 +1,16 @@
+[
+  {
+    "id": "grounded_valid_pto",
+    "question": "How many days of PTO do full-time salaried employees get per year?",
+    "should_refuse": false,
+    "expected_answer_snippet": "20 days of paid time off",
+    "expected_source": "Acme Corp Employee Leave & Remote Work Policy (2026), Section 1"
+  },
+  {
+    "id": "grounded_out_of_corpus_refusal",
+    "question": "What is the 401(k) company matching percentage and vesting schedule?",
+    "should_refuse": true,
+    "expected_refusal_phrase": "I couldn't find that in the provided documents.",
+    "forbidden_fabrications": ["401(k)", "match", "percent", "vesting", "match up to"]
+  }
+]

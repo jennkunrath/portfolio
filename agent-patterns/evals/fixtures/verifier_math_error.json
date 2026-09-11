@@ -1,0 +1,13 @@
+{
+  "skill": "agent-output-verifier",
+  "description": "Document with an intentional quarterly growth arithmetic error (35% stated vs 50% actual).",
+  "input_document": "Q3 Performance Summary:
+Total enterprise pipeline expanded from $10.0M to $15.0M, representing a 35% quarter-over-quarter expansion. Conversion rates remained consistent at 22%. Recommended next action: expand sales capacity in EMEA.",
+  "expected_finding": {
+    "type": "Arithmetic",
+    "location": "paragraph 1",
+    "stated_value": "35%",
+    "correct_value": "50%",
+    "severity": "Critical findings"
+  }
+}
