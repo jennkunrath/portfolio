@@ -128,3 +128,30 @@ independently, produces disagreement. That's the point.
 
 **Pick the accept threshold before you see the output.** A number decided in advance is an
 engineering decision. One decided afterward is a rationalization.
+
+## Contract Verification Suite (`evals/`)
+
+This directory includes an offline-runnable contract evaluation suite in [`evals/`](./evals) that programmatically tests prompt contracts, refusal paths, and arithmetic checks against deterministic criteria.
+
+### Running the evaluation harness
+
+Run with standard Python (zero external dependencies, runs offline in <1 second):
+
+```bash
+python3 evals/runner.py
+```
+
+Or run via pytest:
+
+```bash
+pip install -r evals/requirements.txt
+pytest evals/
+```
+
+| Test Case | Target Skill | Test Input Payload | Deterministic Pass Criteria |
+|---|---|---|---|
+| **Scripted Refusal** | `grounded-qa` | Out-of-corpus question (401(k) match on PTO-only corpus) | Contains literal: `"I couldn't find that in the provided documents."` Zero hallucinated claims. |
+| **Arithmetic Catch** | `agent-output-verifier` | Report claiming $10M $	o$ $15M is a 35% increase | Flags 50% vs 35% in `Critical findings` under `Verdict: APPROVE WITH CORRECTIONS`. |
+| **Rubric Contract** | `rubric-grader` | Incident postmortem submission (Graded mode) | Table contains all 4 fixed dimensions; integer scores sum to Total ($n/20$); valid band assigned. |
+| **Anti-Goal Enforcement** | `agent-spec-writer` | Request for compliance analyzer spec | Output contains YAML frontmatter, explicit `## Anti-Goals`, `## Preconditions`, and `## Output Contract`. |
+
