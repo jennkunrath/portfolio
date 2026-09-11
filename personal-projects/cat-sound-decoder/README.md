@@ -1,6 +1,6 @@
-# Pet Sound Decoder
+# Cat Sound Decoder
 
-Pet Sound Decoder is a mobile-first web app that helps cat owners interpret a
+Cat Sound Decoder is a mobile-first web app that helps cat owners interpret a
 vocalization in context. It combines an audio classifier with observed ear and
 tail positions, then explains whether the two signals reinforce each other or
 point in different directions.
