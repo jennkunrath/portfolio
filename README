@@ -1,53 +1,72 @@
 # Hi, I'm Jenn Kunrath 👋
 
-I am a strategic Enterprise AI Solution Engineer who sits at the intersection of complex multi-agent orchestration, rapid UI prototyping, and tangible business value. Whether I am architecting frameworks for the enterprise space or vibe-coding human-centric, value forward apps in my personal time, I treat bleeding-edge technology like my playground. 
+I'm an Enterprise AI Solutions Engineer. I design agent architectures and RAG systems for the
+enterprise, build the prototypes that make them concrete in a customer conversation, and test them
+thoroughly to see and prove what actually works.
 
-Everything I do shares the common goal of ensuring that complex technical architectures are deeply intuitive, valuable, and above all - approachable for the user base.
+That last item is worth focusing on given the process and structure I put around it. When I evaluate a tool, 
+I set pass criteria before the build starts, test against a stratified corpus rather than a sample, and 
+publish the failures next to the thresholds they missed. AI evaluations I run have a clear results table 
+of what went well and an examination of what was missed and how it might be improved where such recommendations
+can be extrapolated.
 
----
+## What's in here
 
-## 🏗️ Core Frameworks & Strategic Assets
+| Section | What it is |
+|---|---|
+| [`agent-patterns`](./agent-patterns) | Architecture patterns from roughly 50 production agents, plus four reference skills implementing them |
+| [`technical-writing`](./technical-writing) | Evaluations and capability overviews, including an 11-case verification study of Perplexity Computer |
+| [`personal-projects`](./personal-projects) | Applications I built on my own time, with the reasoning behind each |
+| [`creative-rd-playground`](./creative-rd-playground) | Voice, music, and video work at the edge of what generative tools can do |
+| [`skills-misc`](./skills-misc) | Skills/Gems I've built that fit into a fun or various category. Because a sense of humor is important in development work |
 
-### 🔹 Decoupled Agent Frameworks (Architectural Blueprint)
-I design AI infrastructure built to close the corporate "scalability gap". My core philosophy centers on creating a **reusable architecture** that can be applied across the enterprise for maximum organizational value and scale. By decoupling the foundational agent framework from the specific instruction layers, organizations can shift from building isolated, one-off solutions to deploying adaptable, scalable infrastructure. This allows teams to write and optimize a core framework once, and seamlessly repurpose it across diverse departmental use cases to accelerate digital transformation.
+## 🏗️ What I do professionally
 
-### 🔹 Dynamic Value Quantification Tools
-I build interactive, benchmark-grounded ROI models designed to help prospective clients construct their own internal business cases in active conversations as both a scoping tool and mechanism to determine if a solution is worth building. These look across solution categories as well as logical vertical groups. Foundation is an interactive HTML/JavaScript framework mapping financial value across revenue cycle acceleration, clinical capacity recovery, and audit risk mitigation. Grounded in industry benchmarks (McKinsey and Gartner).
+**Decoupled agent frameworks.** I design AI infrastructure aimed at the scalability gap: decoupling
+the foundational agent framework from the instruction layer so an organization can write and optimize
+a core once, then repurpose it across departments instead of rebuilding per use case. The
+[architecture write-up](./agent-patterns) covers the patterns that held up across a production
+library and what was learned through building.
 
-### 🔹 Interface Prototyping & Presales Innovation
-As a founding SE, I build production-grade, front-end demos to translate abstract technical concepts into something tangible and interactive. 
-*   *Featured Innovation:* Long before native agent instructions were standardized in platform interfaces, I designed and custom-built a middleware layer in client-facing web UIs to explicitly handle and visual-map multi-agent instruction routing.
+**Dynamic value quantification.** Nine interactive ROI models spanning combined solution value,
+custom agents, workforce impact, RAG, and five industry verticals. Built as an HTML/JavaScript
+framework grounded in published McKinsey and Gartner benchmarks, so a prospect can change the inputs
+mid-call and watch the case move. They work as a scoping tool as much as a selling one: the fastest
+way to find out a solution isn't worth building is to model it honestly in front of the customer.
 
----
+**Interface prototyping.** Production-grade front-end demos that turn an abstract architecture into
+something a customer can react to. Before platforms standardized native agent instructions, I built a
+middleware layer into a client-facing web UI that visually mapped how instructions routed between
+agents, so customers could see the mechanism.
 
-## 💡 Personal Prototyping & Human-Centric AI
+## 💡 Personal builds
 
-I am a massive believer in the power of **vibe coding** as an ideating tool —using natural language prompting to rapidly manifest functional software prototypes from scratch.
+I use natural-language prototyping to get to working software fast and where necessary, do additional engineering by hand.
+Full write-ups and source where I have it in [`personal-projects`](./personal-projects):
 
-### 🧠 [The Mindful Journal](https://github.com/jennkunrath/mindful-journal) 
-* Flagship personal project exploring the emotional utility of generative text.
-* **The "Why":** Built as a deeply personal tool to offer continuous conversational support, processing text with high empathy to serve as a bridge for friends when I couldn’t physically be present for a conversation. 
-* **The Tech:** Vibe-coded frontend anchored on a highly targeted, empathetic prompting schema.
+- **[MindfulApp](./personal-projects/mindful-app):** an AI journaling companion built for friends who
+  process out loud, for the hours when I couldn't pick up the phone. Full source, architecture notes,
+  and the three original build prompts.
+- **[AI Manuscript Editor](./personal-projects/manuscript-editor):** an editorial pass that stays
+  continuity-aware across a book-length manuscript using an evolving story bible, so it catches a
+  broken timeline or a character in two places at once.
+- **[Cat Sound Decoder](./personal-projects/cat-sound-decoder):** interprets a cat vocalization by
+  combining an SVM audio classifier with observed ear and tail position, and surfaces the conflict
+  when the two signals disagree.
 
-### 🗺️ [Trail Tales](https://github.com/jennkunrath/trail-tales)
-* A creative prototype leveraging AI to dynamically construct interactive narrative pathways encouraging kids to get involved with story building and support reading/literacy. 
+## 🎙️ Creative R&D
 
----
+A decade of professional voiceover, a 40+ song catalog, and published fiction, some leveraging or testing
+the technology of generative tools. Voice cloning, AI-augmented music production, and the album *Damsel* are in
+[`creative-rd-playground`](./creative-rd-playground). [JennAI.blog](https://jennai.blog) is where I
+write my observations around testing and technology trends. 
 
-## 🎙️ Creative R&D Playground (Curiosity in Practice)
+## 🛠️ Stack & certifications
 
-Technology is moving on a compounding acceleration curve. I stay ahead of this by actively testing, sometimes breaking, and creating with emerging tools.
+- **AI and orchestration:** multi-agent frameworks, RAG systems, evaluation design, prompt engineering
+- **Build:** TypeScript/React, Node/Express, Python, FastAPI, PostgreSQL, Drizzle
+- **Certifications:** PAIR AI Certified (Distinction), IBM AI Fundamentals, Google Cloud AI
+- **Interdisciplinary:** audio engineering and DAW mastering, technical writing, voiceover
 
-*   **[JennAI.blog](https://jennai.blog):** My active sandbox for documenting enterprise AI insights, creative experiments, and technical deep-dives. It serves as a living record of my explorations, bridging the gap between high-level strategy and hands-on execution.
-*   **Synthetic Voice Cloning:** Merging my decade-long background in professional voiceover with modern generative tech, I've built and mastered localized high-fidelity voice clones via ElevenLabs to explore the future of automated narration and dynamic GTM collateral. My voice clone has generated significant community engagement, surpassing **164.2k likes** in real-world validation.
-*   **AI-Augmented Music Production:** Developed and produced a full pop album (Damsel) utilizing Suno to generate and master instrumental tracks, while actively deploying my traditional DAW (Digital Audio Workstation) expertise and studio vocals inside the editor to engineer a seamless harmony between human performance and algorithmic synthesis.
-
----
-
-## 🛠️ Tech Stack & Certifications
-
-*   **AI/Orchestration:** Multi-Agent Frameworks, RAG Systems, Advanced Prompt Engineering
-*   **Certifications:** PAIR AI Certified (Distinction), IBM AI Fundamentals, Google Cloud AI
-*   **Interdisciplinary:** Audio Engineering & DAW Mastering, Full-Stack Web Prototyping
-
-📫 **Let's Connect:** [LinkedIn](https://linkedin.com/in/jennkunrath/) | [Blog](https://jennai.blog)
+📫 [LinkedIn](https://linkedin.com/in/jennkunrath/) · [Blog](https://jennai.blog) ·
+[jennkunrath.com](https://jennkunrath.com)
