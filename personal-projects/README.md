@@ -9,7 +9,7 @@ with this way of working the specificity of the input is the skill.
 
 ## The projects
 
-### 🧠 [MindfulFlow](./mindful-flow)
+### 🧠 [MindfulApp](./mindful-app)
 
 An AI journaling companion built for friends who needed compassionate support for the hours when I couldn't
 pick up the phone. A journal thread conversation, an accomplishment tracker that celebrates what you did
@@ -29,7 +29,7 @@ This is my attempt at using technology to create a personal editor for my own wr
 **Stack:** React, TypeScript, Express, SQLite/Drizzle, long-context Gemini
 **The interesting part:** the story bible. Chapter-scoped tools can't see continuity issues or plot holes.
 
-### 🐈 [Pet Sound Decoder](./pet-sound-decoder)
+### 🐈 [Cat Sound Decoder](./cat-sound-decoder)
 
 Interprets a cat vocalization in context by combining an audio classifier with observed ear and
 tail position, then explaining whether the two signals agree. Trained on the publically available CatMeows dataset, with
