@@ -2,6 +2,10 @@
 
 **Positioning:** Solution — models a RAG-based search deployment on its own, independent of industry.
 
+> **Note on this profile:** the source file for this calculator wasn't part of this documentation pass. What follows is drawn from the suite's own product copy rather than the calculator itself. Supply the file to upgrade this to a full profile with confirmed inputs and a screenshot.
+
+**Live demo:** _not yet linked — see [Access & code availability](../README.md#access--code-availability)_
+
 ## What it's for
 
 Per the suite's own description: "Isolate internal file search friction vectors. Models the direct economic impact of transitioning unstructured repositories into structured, source-cited contextual semantic discovery endpoints." Translated out of the product copy: this is the calculator for a buyer whose actual bottleneck is that their people can't find things — unstructured file repositories, no source citation, no semantic search — and who wants the dollar value of fixing just that, independent of whether an agent is ever built on top of it.

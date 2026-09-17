@@ -4,6 +4,8 @@
 
 **Tagline:** "Model the ROI of a custom finance agent — before you build it."
 
+**Live demo:** _not yet linked — see [Access & code availability](../README.md#access--code-availability)_
+
 ![Financial Services ROI Calculator](../assets/screenshots/financial-services.png)
 
 ## What it's for

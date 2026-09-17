@@ -4,6 +4,8 @@
 
 **Tagline:** "Model the ROI of a custom pharma agent — before you build it."
 
+**Live demo:** _not yet linked — see [Access & code availability](../README.md#access--code-availability)_
+
 ![Pharma & Life Sciences ROI Calculator](../assets/screenshots/pharma.png)
 
 ## What it's for

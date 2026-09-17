@@ -4,6 +4,8 @@
 
 **Tagline:** "Model the ROI of a custom healthcare agent — before you build it."
 
+**Live demo:** _not yet linked — see [Access & code availability](../README.md#access--code-availability)_
+
 ![Healthcare ROI Calculator](../assets/screenshots/healthcare.png)
 
 ## What it's for
